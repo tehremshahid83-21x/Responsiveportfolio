@@ -11,3 +11,13 @@ body{
 Header{
     background-color: #5a4636;
     padding:1rem;
+}
+nav{
+    color:#f5f1e8;
+    text-decoration:none;
+}
+.projekt-card{
+    background-color: #f5f1e8;
+    padding:1.5rem;
+    border-radius: 10px;
+}

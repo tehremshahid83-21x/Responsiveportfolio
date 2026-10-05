@@ -4,20 +4,39 @@
 body{
     font-family:Arial, sans-serif;
     margin:0;
-    background-color:#6b705c;
+    background-color:lightblue;
     color:#3e2f24;
-    line-height:1.6;
+    
 }
-Header{
-    background-color: #5a4636;
-    padding:1rem;
+header{
+    background: color #654321;;
+    padding:15px;
 }
-nav{
-    color:#f5f1e8;
-    text-decoration:none;
+nav {
+   
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 .projekt-card{
-    background-color: #f5f1e8;
-    padding:1.5rem;
-    border-radius: 10px;
+    background-color:beige;
+    padding:20pxm;
+    
 }
+button{
+    background-color:#654321;
+    color:white;
+    padding: 10px;
+
+ }
+ nav a{
+    color:white;
+
+ }
+nav a:hover{
+    text-decoration: underline;
+}
+main{
+    width: 90px;
+}
+ 

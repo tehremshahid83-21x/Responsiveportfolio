@@ -1,5 +1,5 @@
 *{
-    box-sizing
+    box-sizing: border-box;
 }
 body{
     font-family:Arial, sans-serif;
@@ -9,7 +9,7 @@ body{
     
 }
 header{
-    background: color #654321;;
+    background-color:  #654321;;
     padding:15px;
 }
 nav {
@@ -20,7 +20,7 @@ nav {
 }
 .projekt-card{
     background-color:beige;
-    padding:20pxm;
+    padding:20px;
     
 }
 button{
@@ -31,13 +31,15 @@ button{
  }
  nav a{
     color:white;
+    text-decoration:none;
 
  }
-nav a:hover{
+nav a:hover{ 
+    
     text-decoration: underline;
 }
 main{
-    width: 90px;
+    width: 90%;
     max-width: 1000px;
     margin:30px auto;
 }
@@ -46,7 +48,7 @@ main{
     gap: 30px;
     align-items: center;
  }
- intro img{
+ .intro img{
     width:300px;
     max-width: 100%;
  }

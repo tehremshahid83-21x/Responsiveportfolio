@@ -39,6 +39,7 @@ button{
     padding: 10px;
 
  }
+
  nav a{
     font-size:18px;
     color:white;
@@ -57,11 +58,30 @@ main{
 }
  .intro{
     display: flex;
-    gap: 30px;
-    align-items: center;
+    gap: 20px;
+    flex-direction: column;
  }
  .intro img{
     width:300px;
     max-width: 100%;
  }
- 
+ .project-list{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:20px;
+
+ }
+ @media (min-width:700px) {
+nav{
+    flex-direction: row;
+    justify-content: center;
+}
+ }
+ .ptoject-list{
+    grid-template-columns: 1fr 1fr;
+ }
+@media(min-width:1000px) {
+    .project-list{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

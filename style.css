@@ -83,9 +83,10 @@ nav{
 @media(min-width:1000px) {
  
 
- }   .project-list{
+ .project-list{
         grid-template-columns: 1fr 1fr 1fr;
     }
+}
 
 .om-mig{
     background-color: beige;

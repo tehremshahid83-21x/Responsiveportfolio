@@ -81,7 +81,21 @@ nav{
     grid-template-columns: 1fr 1fr;
  }
 @media(min-width:1000px) {
-    .project-list{
+ 
+
+ }   .project-list{
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+.om-mig{
+    background-color: beige;
+    padding: 20px;
+    margin-top: 30px;
+}
+.om-mig h1{
+    font-style:italic;
+
+}
+.om-mig h2{
+    margin:10px;
 }
